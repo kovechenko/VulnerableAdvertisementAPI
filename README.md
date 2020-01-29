@@ -19,22 +19,20 @@ Application is a set of APIs that create advertising. The application supports t
 * Microsoft Windows 7 or higher
 * [Microsoft SQL Server 2017 Express Edition](https://www.microsoft.com/en-us/download/details.aspx?id=55994) or higher
 * [Microsoft SQL Server Management Studio](https://docs.microsoft.com/en-us/sql/ssms/download-sql-server-management-studio-ssms?view=sql-server-2017)
-* [Microsoft .NET Core 2.2 Runtime](https://dotnet.microsoft.com/download) or higher
+* [ASP.NET Core Runtime 3.1.1 Bundle](https://dotnet.microsoft.com/download/dotnet-core/3.1) or higher
 * [Microsoft Internet Information Services](https://www.itnota.com/install-iis-windows/)
 * [Postman](https://www.getpostman.com/)
 * [OWASP ZAP](https://www.owasp.org/index.php/OWASP_Zed_Attack_Proxy_Project)
 * Any browser plugin to work with cookies
 
-## How to
-* [Restore a Database Backup Using SSMS](https://docs.microsoft.com/en-us/sql/relational-databases/backup-restore/restore-a-database-backup-using-ssms?view=sql-server-2017)
-* [Create a Database User](https://docs.microsoft.com/en-us/sql/relational-databases/security/authentication-access/create-a-database-user?view=sql-server-2017)
-* [Host ASP.NET Core on Windows with IIS](https://docs.microsoft.com/en-us/aspnet/core/host-and-deploy/iis/?view=aspnetcore-2.2)
+## Setup
+* [API setup instruciton](https://github.com/kovechenko/VulnerableAdvertisementAPI/blob/master/Setup%20Instructions.docx)
 
 ## Repository Contents
 * API.zip - API web application. Inside archive: 
   * appsettings.json - Main configuration file. Setup connection to database
   * web.config - Web application configuration file. Application start configuration (no changes required)
-* Postman.json - Postman requests collection with API tests. Please, look through it to understand what APIs project has. The link to the working APIs may change.
+* Postman Collection.json, Postman Workspace.postman_globals.json, Postman variables.postman_environment.json - Postman requests collection with API tests. Please, look through it to understand what APIs project has. The link to the working APIs may change.
 * Database.bak - SQL database backup with test data
 
 ## Test data
