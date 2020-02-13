@@ -17,7 +17,7 @@ Application is a set of APIs that create advertising. The application supports t
 
 ## Prerequisites
 * Microsoft Windows 7 or higher
-* [Microsoft SQL Server 2017 Express Edition](https://www.microsoft.com/en-us/download/details.aspx?id=55994) or higher
+* [Microsoft SQL Server Express or Developer Edition](https://www.microsoft.com/en-us/sql-server/sql-server-downloads)
 * [Microsoft SQL Server Management Studio](https://docs.microsoft.com/en-us/sql/ssms/download-sql-server-management-studio-ssms?view=sql-server-2017)
 * [Postman](https://www.getpostman.com/)
 * [OWASP ZAP](https://www.owasp.org/index.php/OWASP_Zed_Attack_Proxy_Project)
